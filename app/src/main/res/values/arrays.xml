@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scaleType_ids">
+        <item>CENTER_INSIDE</item>
+        <item>CENTER_CROP</item>
+        <item>FIT_XY</item>
+    </string-array>
+    <string-array name="scaleType_names">
+        <item>整体居中</item>
+        <item>居中裁剪</item>
+        <item>铺满</item>
+    </string-array>
+</resources>
