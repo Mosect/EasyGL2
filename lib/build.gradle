@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
+
+def libVersion = '1.0.1'
 
 android {
     compileSdk 32
@@ -30,4 +33,19 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}
+
+// Because the components are created only during the afterEvaluate phase, you must
+// configure your publications using the afterEvaluate() lifecycle method.
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.mosect'
+                artifactId = 'EasyGL2'
+                version = libVersion
+            }
+        }
+    }
 }
