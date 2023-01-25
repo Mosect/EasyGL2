@@ -1,4 +1,4 @@
-package com.mosect.lib.easygl2.g2d;
+package com.mosect.lib.easygl2;
 
 import android.graphics.Bitmap;
 

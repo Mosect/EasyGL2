@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 import com.mosect.lib.easygl2.GLShader;
 import com.mosect.lib.easygl2.GLTexture;
 import com.mosect.lib.easygl2.g2d.GLShaderOES;
-import com.mosect.lib.easygl2.g2d.GLTextureWindow;
+import com.mosect.lib.easygl2.GLTextureWindow;
 
 import java.util.Collections;
 import java.util.List;

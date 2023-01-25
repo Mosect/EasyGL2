@@ -11,9 +11,9 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 
 import com.mosect.lib.easygl2.GLShader;
-import com.mosect.lib.easygl2.g2d.GLBitmapProvider;
+import com.mosect.lib.easygl2.GLBitmapProvider;
 import com.mosect.lib.easygl2.g2d.GLShaderRect;
-import com.mosect.lib.easygl2.g2d.GLTextureBitmap;
+import com.mosect.lib.easygl2.GLTextureBitmap;
 
 import java.io.InputStream;
 

@@ -1,4 +1,4 @@
-package com.mosect.lib.easygl2.g2d;
+package com.mosect.lib.easygl2;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.GLES11Ext;
@@ -6,6 +6,7 @@ import android.view.Surface;
 
 import com.mosect.lib.easygl2.GLException;
 import com.mosect.lib.easygl2.GLTexture;
+import com.mosect.lib.easygl2.g2d.GLTexture2D;
 
 /**
  * 窗口纹理，用于将窗口内容绘制到EGLSurface中

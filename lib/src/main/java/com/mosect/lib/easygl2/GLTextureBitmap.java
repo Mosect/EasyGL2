@@ -1,12 +1,11 @@
-package com.mosect.lib.easygl2.g2d;
+package com.mosect.lib.easygl2;
 
 import android.graphics.Bitmap;
 import android.opengl.GLES20;
 import android.opengl.GLUtils;
 import android.opengl.Matrix;
 
-import com.mosect.lib.easygl2.GLException;
-import com.mosect.lib.easygl2.GLTexture;
+import com.mosect.lib.easygl2.g2d.GLTexture2D;
 
 /**
  * 位图纹理

@@ -11,7 +11,7 @@ import com.mosect.lib.easygl2.GLTexture;
 import com.mosect.lib.easygl2.g2d.GLDrawer2D;
 import com.mosect.lib.easygl2.g2d.GLShader2D;
 import com.mosect.lib.easygl2.g2d.GLTexture2D;
-import com.mosect.lib.easygl2.g2d.GLTextureWindow;
+import com.mosect.lib.easygl2.GLTextureWindow;
 import com.mosect.lib.easygl2.g2d.Matrix2D;
 
 import java.util.LinkedList;
