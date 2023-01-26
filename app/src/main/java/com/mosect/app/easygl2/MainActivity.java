@@ -43,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_frontCamera).setOnClickListener(v -> jumpCameraTest("front"));
         findViewById(R.id.btn_backCamera).setOnClickListener(v -> jumpCameraTest("back"));
         findViewById(R.id.btn_picture).setOnClickListener(v -> jumpPictureTest());
+        findViewById(R.id.btn_simple).setOnClickListener(v -> {
+            Intent intent = new Intent(this, SimpleActivity.class);
+            startActivity(intent);
+        });
     }
 
     private void jumpCameraTest(String facing) {

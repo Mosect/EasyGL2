@@ -21,4 +21,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="选择图片" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单测试" />
 </LinearLayout>
